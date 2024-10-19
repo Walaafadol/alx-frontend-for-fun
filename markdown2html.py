@@ -15,7 +15,7 @@ def convert_markdown_to_html(markdown_file, output_file):
                 line = line.rstrip()  # Remove trailing whitespace
                 if line.startswith('#'):
                     heading_level = 0
-                    while heading_level < 6 and line[heading_level] == '#':
+                    while heading_level < 7 and line[heading_level] == '#':
                         heading_level += 1
                     heading_text = line[heading_level:].strip()
                     if heading_level > 0:
