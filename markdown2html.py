@@ -1,5 +1,8 @@
-#!/usr/bin/env python3
-''' this is markdown '''
+#!/usr/bin/python3
+
+"""
+Markdown script using python.
+"""
 
 import sys
 import os
